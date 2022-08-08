@@ -1,4 +1,4 @@
-package com.atguigu.chapter01;
+package com.java.chapter01;
 
 /**
  * TODO 你好，世界   你好，Java
