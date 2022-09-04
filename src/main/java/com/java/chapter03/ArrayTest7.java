@@ -93,18 +93,9 @@ public class ArrayTest7 {
 
         }
 
-
         if(!flag2){
             System.out.println("很遗憾没找到！");
         }
-
-
-
-
-
-
-
-
 
     }
 }
