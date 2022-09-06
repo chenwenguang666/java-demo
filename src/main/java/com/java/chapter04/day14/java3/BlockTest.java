@@ -32,9 +32,58 @@ package com.java.chapter04.day14.java3;
 
 public class BlockTest {
 
+    public static void main(String[] args) {
+
+
+        Person p1 = new Person();
+
+
+        Person p2 = new Person();
+
+
+    }
+
 }
 
-class person {
+
+class Person {
     String name;
     int age;
+    static String nation;
+
+    // 静态代码块
+    static {
+        nation = "中国";
+        method2();
+        System.out.println("静态代码块");
+
+        // 静态代码块不能使用非静态的结构
+//        name = "fdf";
+//        method();
+
+
+    }
+
+    // 非静态代码块
+    {
+        name = "fdsfd";
+        age = 12;
+        method1();
+        System.out.println("非静态代码块");
+
+        //调用静态的结构
+        method2();
+        nation = "china";
+
+    }
+
+
+    public void method1(){
+        System.out.println("method1");
+    }
+
+    public static void method2(){
+        System.out.println("method2");
+    }
+
 }
