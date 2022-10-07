@@ -11,6 +11,7 @@ public class Student extends Person {
 
 
     public Student() {
+        super();
     }
 
     public Student(String major) {

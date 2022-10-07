@@ -35,7 +35,7 @@ public class PersonTest {
 
     public static void main(String[] args) {
 
-        Person p1 = new Person("李四",19);
+        Person p1 = new Person("李四", 19);
 
         // p1.setName("张三");
         // p1.setAge(18);
@@ -55,7 +55,7 @@ class Person {
 
     // 构造器
     public Person() { // 无参构造器
-
+        super();
         System.out.println("一千行代码");
     }
 

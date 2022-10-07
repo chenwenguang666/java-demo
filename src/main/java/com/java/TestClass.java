@@ -1,5 +1,7 @@
 package com.java;
 
+import java.util.Scanner;
+
 /**
  * TODO 测试类
  * Created by tom on 2022/8/8
@@ -9,18 +11,10 @@ public class TestClass {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
 
-        String s1 = "hello";
+        int number = scanner.nextInt();
 
-        TestClass test = new TestClass();
-        test.change(s1);
-
-        System.out.println(s1);//hi~~
-
+        System.out.println(number);
     }
-
-    public void change(String s) {
-        s = "hi~~";
-    }
-
 }

@@ -41,5 +41,10 @@ public class Student extends Person {
 
     }
 
+    /// 不是重写
+    public static void method3(){
+
+    }
+
 
 }
